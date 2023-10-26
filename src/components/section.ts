@@ -1,6 +1,7 @@
 import { Component } from './component';
+import '../css/style.css';
 
-export class Header extends Component {
+export class Section extends Component {
   title: string;
   constructor(selector: string, title: string) {
     super(selector);
@@ -10,8 +11,10 @@ export class Header extends Component {
   }
 
   createTemplate() {
-    return `<header class="main-header">
-              <h1 class="main-title">${this.title}</h1>
-            </header>`;
+    return `
+      <section class="series">
+        <h2 class="section-title">${this.title}</h2>
+      </section>
+    `;
   }
 }
