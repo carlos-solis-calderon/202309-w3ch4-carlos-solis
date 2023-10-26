@@ -1,17 +1,17 @@
 import { Component } from './component';
-import { SerieStructure } from '../models/list';
+import { SeriesStructure } from '../models/list';
 import '../css/style.css';
 
 export class ListSeriesWatched extends Component {
-  listSeries: SerieStructure[];
-  constructor(selector: string, listSeries: SerieStructure[]) {
+  listSeries: SeriesStructure[];
+  constructor(selector: string, listSeries: SeriesStructure[]) {
     super(selector);
     this.listSeries = listSeries;
     this.template = this.createTemplate();
     this.render();
   }
 
-  getSeries(series: SerieStructure[]) {
+  getSeries(series: SeriesStructure[]) {
     const listWatched = series.filter((item) => item.watched === true);
 
     let listSeriesWatchedHTML = '';

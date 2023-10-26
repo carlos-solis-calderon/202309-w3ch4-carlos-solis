@@ -1,4 +1,4 @@
-export type SerieStructure = {
+export type SeriesStructure = {
   id: number;
   name: string;
   creator: string;
