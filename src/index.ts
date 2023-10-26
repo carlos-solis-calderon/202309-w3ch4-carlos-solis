@@ -1,11 +1,11 @@
-import './style.css';
-
+import './css/style.css';
 import { Header } from './components/header';
 import { Main } from './main';
 import { Section } from './components/section';
 import { SeriesPending } from './components/pending.series';
 import { ListSeriesPending } from './components/pendingListSeries';
 import { listSeries } from './data/repo';
+import { SeriesWatched } from './components/series.watched';
 
 function main() {
   console.log('Loaded main');

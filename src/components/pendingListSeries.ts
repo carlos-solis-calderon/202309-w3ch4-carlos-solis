@@ -1,6 +1,6 @@
 import { Component } from './component';
 import { SerieStructure } from '../models//list';
-import '../style.css';
+import '../css/style.css';
 
 export class ListSeriesPending extends Component {
   listSeries: SerieStructure[];

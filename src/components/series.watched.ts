@@ -1,5 +1,5 @@
 import { Component } from './component';
-import '../style.css';
+import '../css/style.css';
 
 export class SeriesWatched extends Component {
   title: string;

@@ -1,4 +1,5 @@
 import { Component } from './component';
+import '../css/style.css';
 
 export class Header extends Component {
   title: string;
